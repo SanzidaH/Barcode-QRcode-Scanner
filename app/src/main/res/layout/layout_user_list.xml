@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/textviewqrinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/reporter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewqrinfo"
+        android:layout_marginTop="5dip"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:orientation="vertical"
+        android:layout_toLeftOf="@id/textviewpostingdate"
+        android:maxLines="1"
+       >
+
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+           />
+
+        <TextView
+            android:id="@+id/textviewemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+           />
+
+        <TextView
+            android:id="@+id/textviewnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ContactNo"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+        <TextView
+            android:id="@+id/textviewnote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textviewpostingdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/reporter"
+        android:layout_alignBottom="@+id/reporter"
+        android:layout_alignParentRight="true"
+        android:textColor="#343434"
+        android:textSize="12sp" />
+</RelativeLayout>

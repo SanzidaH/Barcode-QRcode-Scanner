@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Flora Support</string>
+    <string name="take_barcode_picture">Admin</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="open_camera">OPEN CAMERA</string>
+    <string name="send_email">SEND EMAIL</string>
+    <string name="minimum_password">Passward length must be atleast 6</string>
+    <string name="auth_failed">Registration failed</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Flora Limited</string>
+    <string name="slide_1_desc">Get support anytime, we are always here for you!</string>
+
+    <string name="slide_2_title">Scan QR</string>
+    <string name="slide_2_desc">Scan the QR first, so that we can get your device infomation to support</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">Fill up and Send</string>
+    <string name="slide_4_desc">Send us your details, so that we can reach you out as soon as possible</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>
